@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+      <!-- navbar -->
+      <nav class="bg-transparent navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#home">Home</a>
+              <a class="nav-item nav-link" href="#about">About</a>
+              <a class="nav-item nav-link" href="#speakers">Speakers</a>
+              <a class="nav-item nav-link" href="#schedule">Schedule</a>
+            </div>
+          </div>
+        </div>
+      </nav><!-- /navbar -->
+      <div class="hero">
+        <img src="./images/pink-web-development-concept-header-mobile.jpg">
+        <div class="container text-sm-center pt-5">
+          
+          <h1 class="display-2">Full Stack Conf</h1>
+          <p class="lead">A One-day Conference About All Things JavaScript!</p>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h2>Heading 2</h2>   
+          <div class="btn-group mt-4 mb-5" role="group" aria-label="Callout buttons">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+            <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-cards"> 
+        <div class="container">
+          <h1 id="speakers" class="display-5 text-center my-5 text-muted">Projects</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/vivianne.png" alt="Vivianne">
+                <div class="card-body">
+                  <h4 class="card-title">Vivianne McVue</h4>
+                  <p class="card-text">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/nodestradamus.png" alt="NodeStradamus">
+                <div class="card-body">
+                  <h4 class="card-title">NodeStradamus</h4>
+                  <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/robbie.png" alt="Robbie">
+                <div class="card-body">
+                  <h4 class="card-title">Robbie Redux</h4>
+                  <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/ecma.png" alt="Ecma">
+                <div class="card-body">
+                  <h4 class="card-title">Ecma Scriptnstuff</h4>
+                  <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/jay.png" alt="Jay">
+                <div class="card-body">
+                  <h4 class="card-title">Jay Query</h4>
+                  <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/json.png" alt="Json">
+                <div class="card-body">
+                  <h4 class="card-title">Json Babel</h4>
+                  <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
