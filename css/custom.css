@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #6c4843;
+}
+
 nav {
   background-color: #ffd9dc;
   
@@ -34,7 +38,7 @@ footer {
 
 }
 
-.nav-item, h1, h2, p {
+.nav-item, h1, h2, .card-title, p {
   color: #6c4843;
 }
 
@@ -178,5 +182,36 @@ nav>ul {
   background-color: #e08ed1;
 }
 
+svg {
+  fill: #b63cd7;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  transition: transform .2s ease-in-out;
+}
 
+svg:hover {
+    animation: standout 0.5s;
+}
 
+@keyframes standout {
+  0% {
+      transform: scale(1.05) rotate(0deg);
+  }
+  /* 25% {
+      transform: scale(1.1) rotate(-5deg);
+  } */
+  50% {
+      transform: scale(1.1) rotate(-1deg);
+  }
+  /* 75% {
+      transform: scale(1.1) rotate(-5deg);
+  } */
+  100% {
+      transform: scale(1.1) rotate(1deg);
+  }
+}
+
+.card {
+  text-align: center;
+}
