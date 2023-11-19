@@ -43,7 +43,6 @@ footer {
 }
 
 .btn {
-  background-color: #5a0966;
   background-color: #b63cd7;
   color: #fff;
 }
@@ -63,30 +62,70 @@ h1 {
   padding-top: 10px;  
 }
 
-@media (min-width: 768px){
-header {
-  text-align: left;
-  /* padding-left: 10vw; */
-  background: url('../images/v2-pink-web-dev-concept-narrow-edited.jpg') no-repeat top center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-  height: 100vh;
+.btn {
+  border: none;
 }
-header>.container {
-  margin-top: 6rem;
-  padding-top: 1rem;
+
+.btn:hover {
+  background-color: #fecf1f;
+  color: #6c4843;
 }
-header>h1{
-  margin-top: 10rem;
-}
-.mobile-img{
-  display: none;
-}
-}
+
+
 
 .project-cards {
   background-color: #ffd9dc;
+}
+
+.card {
+  text-align: center;
+}
+
+.card .btn {
+  margin-bottom: 1rem;
+}
+
+.rounded-pill {
+  color: #fff;
+}
+
+.html {
+  background-color: #749d6c;
+}
+
+.css {
+  background-color: #5a3954;
+}
+
+.javascript {
+  background-color: #55534d;
+}
+
+.svg {
+  background-color: #e9777b;
+}
+
+.api {
+  background-color: #aa8a08; 
+}
+
+.sass {
+  background-color: #6c4843;
+}
+
+.all {
+  background-color: #fff;
+  font-weight: bolder;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.badge:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 /* @media (min-width: 768px) {
@@ -194,6 +233,7 @@ svg:hover {
     animation: standout 0.5s;
 }
 
+
 @keyframes standout {
   0% {
       transform: scale(1.05) rotate(0deg);
@@ -212,6 +252,31 @@ svg:hover {
   }
 }
 
-.card {
+#skills {
   text-align: center;
+}
+
+@media (min-width: 768px){
+  header {
+    text-align: left;
+    /* padding-left: 10vw; */
+    background: url('../images/v2-pink-web-dev-concept-narrow-edited.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    height: 100vh;
+  }
+  header>.container {
+    margin-top: 6rem;
+    padding-top: 1rem;
+  }
+  header>h1{
+    margin-top: 10rem;
+  }
+  .mobile-img{
+    display: none;
+  }
+
+
+  
 }
