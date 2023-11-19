@@ -116,7 +116,9 @@ h1 {
 .all {
   background-color: #fff;
   font-weight: bolder;
-  color: black;
+  color: #6c4843;
+  border: 1px solid #6c4843;
+  margin-left: 1rem;
 }
 
 .hidden {
@@ -230,7 +232,7 @@ svg {
 }
 
 svg:hover {
-    animation: standout 0.5s;
+  animation: standout 0.5s;
 }
 
 
