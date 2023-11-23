@@ -57,6 +57,20 @@ hideCardsWithoutDescendant('sass');
 hideCardsWithoutDescendant('svg');
 hideCardsWithoutDescendant('api');
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the navbar-toggler-icon element
+    var navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
 
+    // Add a click event listener to the navbar-toggler-icon
+    navbarTogglerIcon.addEventListener('click', function () {
+        // Check if any descendant has the class 'show'
+        var hasShowClass = Array.from(navbarTogglerIcon.querySelectorAll('.show')).length > 0;
+
+        // If any descendant has the class 'show', remove it
+        if (hasShowClass) {
+            navbarTogglerIcon.classList.remove('show');
+        }
+    });
+});
 
 

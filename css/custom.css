@@ -54,6 +54,27 @@ nav>ul {
   padding-inline-start: 0px;
 }
 
+.navbar-toggler {
+  background-color: #749d6c;
+}
+
+.nav-item:hover, .navbar-nav .nav-link.active {
+  color: #749d6c;
+}
+
+.navbar-nav:hover {
+  color: black;
+}
+
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:focus {
+  color: #749d6c;
+}
+
+.navbar {
+  position: relative;
+}
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -236,6 +257,10 @@ footer ul li {
 
   .mobile-img{
     display: none;
+  }
+
+  .navbar {
+    position: fixed;
   }
   
 }
