@@ -57,6 +57,8 @@ hideCardsWithoutDescendant('sass');
 hideCardsWithoutDescendant('svg');
 hideCardsWithoutDescendant('api');
 
+// Current year
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
 
 
